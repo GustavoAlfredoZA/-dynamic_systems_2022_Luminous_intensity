@@ -9,18 +9,17 @@ Information Technology in Sciences student at ENES Morelia, UNAM.
 Evaluation exercise of a dynamic system of Luminous intensity and Optical depth.
 
 ## Methodology
-
 We first implement the following equation from Planck's law of blackbody radiation
-Where h is Planck's constant, c is the speed of light in a vacuum, k is Boltzmann's constant, v is the frequency of electromagnetic radiation, and T is the absolute temperature of the body.
-![Results](planck.png)
-Then the absorption coefficient equation for thermal electrons is implemented, where n_e is the number density of electrons, T is the absolute temperature of the object.
+Where h is Planck's constant, c is the speed of light in a vacuum, k is Boltzmann's constant, v is the frequency of electromagnetic radiation, and T is the absolute temperature of the body.__
+![Results](planck.png)__
+Then the absorption coefficient equation for thermal electrons is implemented, where n_e is the number density of electrons, T is the absolute temperature of the object.__
 ![Results](opacity.png)
 Then in the system the optical depth is defined,
-where we define dx as the difference between two height values, to the height path, also using the previously defined opacity function.
+where we define dx as the difference between two height values, to the height path, also using the previously defined opacity function.__
 ![Results](optical_depth.png)
-For luminous intensity we define the following function where t_v is the previously defined optical depth and we use the black body radiation function as our S_v function.
+For luminous intensity we define the following function where t_v is the previously defined optical depth and we use the black body radiation function as our S_v function.__
 ![Results](luminous_intensity.png)
-And we use the data from the file data1.csv as parameters of our system
+And we use the data from the file data1.csv as parameters of our system__
 
 ## Requiriments
 This proyect use Python v. 3.8,
@@ -45,7 +44,7 @@ This proyect use Python v. 3.8,
 
 ## References
 - [Matplotlib](https://matplotlib.org/2.1.2/) Documentation.
-- [Dynamic System 2022 course](https://github.com/giccunam/dynamicsystems2022)as.
+- [Dynamic System 2022 course](https://github.com/giccunam/dynamicsystems2022).
 - [Scipy Constants] (https://pythonguides.com/scipy-constants/)
 - [Radiacion de cuerpo negro] (https://es.wikipedia.org/wiki/Radiaci%C3%B3n_de_cuerpo_negro#La_ley_de_Planck_de_la_radiaci%C3%B3n_del_cuerpo_negro)
 - [Constante_de_Planck] (https://es.wikipedia.org/wiki/Constante_de_Planck)
