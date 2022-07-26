@@ -9,7 +9,11 @@ Information Technology in Sciences student at ENES Morelia, UNAM.
 Evaluation exercise of a dynamic system of Luminous intensity and Optical depth.
 
 ## Methodology
-We sought first to generate the four points of the first square, then we locate what will be the starting point of the next generation of squares to place them in the middle of the sides of the square, recursively repeating this process with the following generations of squares
+
+![Results](planck.png)
+![Results](opacity.png)
+![Results](optical_depth.png)
+![Results](luminous_intensity.png)
 
 ## Requiriments
 This proyect use Python v. 3.8,

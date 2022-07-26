@@ -74,4 +74,4 @@ ax4.set_ylabel('Luminous intensity I  [erg/cm^2 sec Hz srad]')
 ax4.set_xlabel('Height h [km]')
 
 plt.show()
-plt.savefig('examen_SD.png')
+figxxx.savefig('examen_SD.png')
