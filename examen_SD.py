@@ -37,6 +37,8 @@ data = pd.read_csv('data1.csv')
 
 print(data.head())
 
+data['h'] = data['h']*1000.0
+
 data = data[['h','T','n_e']]
 print(data.head())
 
